@@ -1,77 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo">Alcalina - Contra a poluição</a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">contato</a></li>                
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-    <div class="navbar-1">
-        <div class="ronaldo">
-            <img src="pilhas.png"  alt="" class="nariz">
-            <img src="equipe.jpeg" alt="" class="img-equipe">
-            <img src="pilhas.png"  alt="" class="nariz">
-        </div>
-    </div>
-    <div class="label-texto">
-        <div class="card" id="t1">
-            <h2>Sobre o projeto</h2>
-            <div class="pizza" id="p1">
-                <p> O projeto tem como  objetivo fomentar a consciência ambiental e implementar um sistema eficaz 
-                    de reciclagem de baterias e pilhas usadas no campus
-                    universitário, utilizando a linguagem C++, arduino e um design interativo </p>
-            </div>
-            <button onclick="expandir('1')">Saiba mais</button>
-        </div>
-        <div class="card" id="t2">
-            <h2>Benefícios</h2>
-            <div class="pizza" id="p2">
-                <p>Uma lixeira específica para pilhas e baterias é crucial para 
-                    proteger o meio ambiente e a saúde pública, prevenindo a 
-                    contaminação do solo e da água com substâncias tóxicas como mercúrio e 
-                    chumbo. Ela reduz riscos de incêndio e exposição a materiais perigosos, além de 
-                    facilitar a reciclagem de recursos valiosos, contribuindo para a economia circular. 
-                    Além disso, garante conformidade com regulamentações ambientais e evita multas, enquanto promove a 
-                    educação e a conscientização sobre práticas de descarte corretas. Em resumo, essas lixeiras ajudam a 
-                    manter um ambiente mais seguro e sustentável. </p>
-            </div>
-            <button onclick="expandir('2')">Saiba mais</button>
-        </div>
-        <div class="card" id="t3">
-            <h2>Equipe</h2>
-            <div class="pizza" id="p3">
-                <ul>
-                    <li>Gabriel Graciano</li>
-                    <li>João Pedro Tito</li>
-                    <li>Diogo Graciano</li>
-                    <li>Kesley Rainery</li>
-                    <li>Silas Emanuel</li>
-                    <li>Icaro Emanuel</li>
-                </ul>
-            </div>
-            <button onclick="expandir('3')">Saiba mais</button>
-        </div>
-    </div> 
-    
-    <footer class="rodape">
-        <p>Criado por: Diogo Graciano</p>
-    </footer>
-</body>
-<script src="script.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/styles/styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="#" class="logo">Alcalina - Contra a poluição</a>
+				<ul class="nav-menu">
+					<li class="nav-item"><a href="#" class="nav-link">home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">sobre</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">contato</a></li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
+		<div class="navbar-1">
+			<div class="ronaldo">
+				<img src="./src/assets/pilhas.png" alt="" class="nariz" />
+				<img src="./src/assets/equipe.jpeg" alt="" class="img-equipe" />
+				<img src="./src/assets/pilhas.png" alt="" class="nariz" />
+			</div>
+		</div>
+		<div class="label-texto">
+			<div class="card" id="t1">
+				<h2>Sobre o projeto</h2>
+				<div class="pizza" id="p1">
+					<p>
+						O projeto tem como objetivo fomentar a consciência ambiental e
+						implementar um sistema eficaz de reciclagem de baterias e pilhas
+						usadas no campus universitário, utilizando a linguagem C++, arduino
+						e um design interativo
+					</p>
+				</div>
+				<button onclick="expandir('1')">Saiba mais</button>
+			</div>
+			<div class="card" id="t2">
+				<h2>Benefícios</h2>
+				<div class="pizza" id="p2">
+					<p>
+						Uma lixeira específica para pilhas e baterias é crucial para
+						proteger o meio ambiente e a saúde pública, prevenindo a
+						contaminação do solo e da água com substâncias tóxicas como mercúrio
+						e chumbo. Ela reduz riscos de incêndio e exposição a materiais
+						perigosos, além de facilitar a reciclagem de recursos valiosos,
+						contribuindo para a economia circular. Além disso, garante
+						conformidade com regulamentações ambientais e evita multas, enquanto
+						promove a educação e a conscientização sobre práticas de descarte
+						corretas. Em resumo, essas lixeiras ajudam a manter um ambiente mais
+						seguro e sustentável.
+					</p>
+				</div>
+				<button onclick="expandir('2')">Saiba mais</button>
+			</div>
+			<div class="card" id="t3">
+				<h2>Equipe</h2>
+				<div class="pizza" id="p3">
+					<ul>
+						<li>Gabriel Graciano</li>
+						<li>João Pedro Tito</li>
+						<li>Diogo Graciano</li>
+						<li>Kesley Rainery</li>
+						<li>Silas Emanuel</li>
+						<li>Icaro Emanuel</li>
+					</ul>
+				</div>
+				<button onclick="expandir('3')">Saiba mais</button>
+			</div>
+		</div>
+
+		<footer class="rodape">
+			<p>Criado por: Diogo Graciano</p>
+		</footer>
+	</body>
+	<script src="./src/script.js"></script>
 </html>
