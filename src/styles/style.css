@@ -6,12 +6,12 @@
 
 body {
 	height: 100vh;
-	background-color: var(--blue-900);
+	background-color: var(--blue-1000);
 }
 
 header {
 	height: 80px;
-	background-color: var(--blue-950);
+	background-color: var(--blue-900);
 	border-bottom: 2px solid var(--gray-500);
 	display: flex;
 	align-items: center;
@@ -148,7 +148,7 @@ dialog {
 footer {
 	display: block;
 	width: 100%;
-	background-color: var(--blue-950);
+	background-color: var(--blue-900);
 	border-top: 1px solid var(--gray-200);
 	bottom: 0;
 	position: relative;
