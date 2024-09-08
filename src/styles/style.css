@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: var(--blue-900);
+}
+
+header {
+	height: 80px;
+	background-color: var(--blue-950);
+	border-bottom: 2px solid var(--gray-500);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 2rem;
+	color: var(--gray-200);
+}
+
+main {
+	padding: 10px;
+}
+
+#description {
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	height: 400px;
+	padding: 15px;
+
+	margin-bottom: 20px;
+}
+
+#description button {
+	padding: 8px 12px;
+	width: 150px;
+	background-color: var(--blue-600);
+	border: 1px solid var(--gray-500);
+	border-radius: 8px;
+	color: var(--gray-200);
+	cursor: pointer;
+}
+
+.card {
+	border: 1px solid var(--gray-900);
+	background-color: var(--gray-200);
+	border-radius: 8px;
+	width: 16rem;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+dialog {
+	margin: auto;
+}
+
+#team-modal {
+	min-width: 25%;
+	padding: 5px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-team {
+	border: 1px solid var(--blue-600);
+	border-radius: 8px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 15px;
+	width: 100%;
+	padding: 5px 10xp;
+}
+
+.card-team img {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border: 3px solid var(--blue-600);
+	border-radius: 50%;
+}
+.card-team article {
+	width: 50%;
+}
+
+#gallery {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+
+	padding: 15px;
+}
+
+.carrousel img {
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	background-color: var(--blue-950);
+	border-top: 1px solid var(--gray-200);
+	bottom: 0;
+	position: relative;
+	color: var(--gray-200);
+	height: 40px;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 10px;
+}
